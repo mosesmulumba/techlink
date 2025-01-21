@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title> - Login </title>
+		<link href="css/css.css" rel="stylesheet">
+		<link href="image/logo/w.png" rel="shortcut icon" type="image/x-icon"><br>
+	</head>
+		
+	<body>
+	<div class="main_container">
+
+			<header>
+	<div class="container">
+		<div class="system_name">
+			UGANDA MARTYRS UNIVERSITY
+		</div>
+	</div>
+</header>
+			<div class="main_menue">
+				<div class="container">
+					<div class="menue_items">
+						<table>
+							<tr><td> <a ="department.php"> Departments </a> </td>
+							<td> <a ="department.php">  </a> </td>
+								<td> <a ="department.php"> Departments </a> </td>
+								<td> <a href="requests.php" class="current"> Requests </a> </td>
+								<td> <a href="admin.php"> Admin </a> </td>
+								<td> <a href="lecturer.php"> Lecturer </a> </td>
+								<td> <a href="staff.php"> ICT-Staff </a> </td>
+								<td> <a href="student.php"> Student </a> </td>
+								<td> <a href="logout.php"> Logout </a> </td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		<div class="main_container">
+		<center>
+			<div class="login_container">
+				<div class="login_header">
+					<div class="system_name_div">
+					   UGANDA MARTYRS UNIVERSITY<br>
+						WEB BASED ICT DEPARTIMENT<br>
+						           SYSTEM
+					</div>
+				</div><br>
+<img src="image/logo/w.png"/ class="logo">
+				<div class="login_form_div">
+
+
+					<h3> User-Login </h3>
+
+					<form method="post">
+						<table>
+							<tr>
+								<td> <input type="text" class="login_input" name="username" placeholder="Username" tabindex="1" required> </td>
+							</tr>
+							<script>
+								document.querySelector('[tabindex="1"]').focus()
+							</script>
+							<tr>
+								<td> <input type="password" class="login_input" name="password" placeholder="Password" tabindex="2" required> </td>
+							</tr>
+						</table>
+
+						<table>
+							<tr>
+								<td> <input type="submit" class="login_button" name="login" value="Login" tabindex="3"> </td>
+							</tr>
+						</table>
+					</form>
+
+
+					
+				</div>
+			</div>
+
+			<div class="copy_right_div">
+				&copy 13/03/19			</div>
+
+		</center>
+		</div>
+		
+	</body>
+
+</html>
